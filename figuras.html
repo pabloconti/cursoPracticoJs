@@ -4,12 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./figuras.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Inconsolata:wght@300&display=swap" rel="stylesheet">
     <title>Figuras geométricas  | Curso Práctico JavaScript</title>
 </head>
 <body>
-    <h1>
-        Figuras geométricas
-    </h1>
+    <header>
+        <h1 class="titulo">
+            Geometric Figures
+        </h1>
+        <div class="linea"></div>
+    </header>    
+    <section>
+        <form class="formFigures">
+            <h2>SQUARE</h2>
+            <img src="/assets/cuadrado.png" class="cuadrado" alt="cuadrado">
+            <input type="number" placeholder="Side" id="inputSquare"><button type="button" onclick="squareAreaCalculation()">Get Area</button><button type="button" onclick="squarePerimeterCalculation()">Get Perimeter</button>
+        </form>
+
+        <form class="formFigures">
+            <h2>RIGHT TRIANGLE</h2>
+            <img src="/assets/triangle-outline-variant.png" alt="right triangle" class="rightTriangle">
+            <input type="number" placeholder="Side 1" id="triangleSide1">
+            <input type="number" placeholder="Side 2" id="triangleSide2">
+            <input type="number" placeholder="Base" id="triangleBase">
+
+            <button type="button" onclick="trianglePerimeterCalculation()">Get Perimeter</button>
+            <input type="number" placeholder="Height" id="triangleHeight">
+            <button type="button" onclick="triangleAreaCalculation()">Get area</button>
+        </form>
+
+        <form class="formFigures">
+            <h2>ISOSCELES TRIANGLE</h2>
+            <img src="/assets/triangulo.png" alt="isosceles triangle" class="isTriangle">
+            <input type="number" placeholder="Equal side" id="triangleIsEqualSide">
+            <input type="number" placeholder="Base" id="triangleIsBase">
+
+            <button type="button" onclick="triangleIsHeightCalculation()">Get Height</button>
+        </form>
+
+        <form class="formFigures">
+            <h2>CIRCLE</h2>
+            <img src="/assets/dry-clean.png" alt="circle" class="circle">
+            <input type="number" placeholder="Radius" id="circleRadius"><button type="button" onclick="circleAreaCalculation()">Get area</button> <button type="button" onclick="circlePerimeterCalculation()">Get Perimeter</button>
+        </form>
+    </section>
 
     <script src="./figuras.js"></script>
 </body>

@@ -1,0 +1,77 @@
+*{
+    font-family: 'Inconsolata', monospace;
+}
+body{
+    background-color: #E1EFF5;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px;
+    height: 70px;
+    width: 80%;
+    color: #313436 ;
+    border-radius: 5px;
+    border: 3px solid #313436;
+    font-size: 25px;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.linea{
+    margin-left: 7px; 
+    height: 45px;
+    width: 3.5px;
+    background-color: #313436;
+    animation-name: titileo;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes titileo{
+    0%{
+        background-color: transparent;
+    }
+    55%{
+        background-color: transparent;
+    }
+    100%{
+        background-color:#313436 ;
+    }
+}
+
+.titulo{
+    margin-left: 5%;
+    margin: 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 80px;
+}
+
+img{
+    width: 140px;
+    height: 140px;
+}
+
+input{
+    text-align: center;
+}
