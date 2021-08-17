@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descuentos.css">
+    <title>Percentages and Discounts</title>
+</head>
+<body>
+    <section>
+        <h2>Apply a discount coupon in your shop's products</h2>
+        <div class="item">
+            <div class="img"><img src="https://los40es00.epimg.net/los40/imagenes/2021/05/05/videojuegos/1620216380_123181_1620216598_gigante_normal.jpg" alt="Playstation 5"></div>
+            <p>Playstation 5</p>
+            <p id="original_price">$100.000</p>
+            <p id ="new_price"></p>
+        </div>
+        <label for="percentDiscount">If you have a coupon add it here</label>
+        <input type="text" id="percentDiscount">
+        <button type="button" onclick="applyCoupon()">Done</button>
+    </section>
+    <script src="./descuentos.js"></script>
+</body>
+</html>
