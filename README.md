@@ -22,4 +22,10 @@
 - Primer paso: definir las formulas
 - Segundo paso: implementar las formulas en Javascript
 - Tercer paso: crear funciones
+- Cuarto paso: Hacer lo mismo que con el promedio, la mediana y la moda pero con un nuevo tipo de promedio. Yo elegí la media armonica. 
+
+## Taller 4: Analisis salarial
+- Primer paso: Calcular mediana de salarios
+- Calcular top 10% de salarios
+- Calcular la mediana entre el top 10% de salarios
 

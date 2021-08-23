@@ -10,10 +10,9 @@ let lista = [
 ];
 
 // ORDENAR LISTA DE NUMEROS
-let comparacion = (a, b)=>{
+let ordenarLista = lista.sort((a, b)=>{
     return a - b;
-}
-let ordenarLista = lista.sort(comparacion);
+});
 
 
 // CALCULO DE MEDIANA
